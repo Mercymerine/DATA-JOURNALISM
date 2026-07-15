@@ -15,7 +15,7 @@ Link: https://public.tableau.com/views/Depaul_University_Intake/Dashboard1?:lang
 <img width="853" height="629" alt="image" src="https://github.com/user-attachments/assets/d07816a4-af5a-4a0c-8f4f-c1a1c0d2f474" />
 
 ### Project Structure
-Original dataset (Unmodified)
+Original dataset (Unmodified): https://github.com/Mercymerine/DATA-JOURNALISM/blob/main/DePaul_Data_Data.csv
 Cleaned datasets used for analysis.
 Dashboard
 Data Report
