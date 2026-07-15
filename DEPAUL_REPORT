@@ -1,0 +1,55 @@
+## Overview
+This report documents an interactive Tableau dashboard built from DePaul University's cleaned applicant intake dataset. The dashboard investigates which course is a popular anomaly in the US in comparison to India? The analysis found that: Full-time MBA appears in the top five preferred courses in the USA, but neither in India's top 5 nor in the top 10 general course intake preferences. The tools used for the data cleaning and analysis are python and google colab and tableau which was used for creating a dashboard and also story telling. This finding would mostly be used by the marketing department and admission teams.
+This is the link: https://public.tableau.com/views/Depaul_University_Intake/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+## Dashboard snapshot 
+
+
+
+
+## Dashboad design and documenation
+### Layout and structure
+The strategy used is the “start big, drill down structure”The dahboard is divided into three sections:
+
+•	Applicant distribution
+Country-level Intake analysis
+Overall course demand
+•	Country Comparison
+
+Top five course prefernces for India
+Top five course prefernces for the United States.
+•	Strategic Opportunity Analysis
+
+Mba Comparison beteen India and the USa
+Identification of Untapped demand
+Why these visulizations?
+
+ 
+
+## Data Flow and Interactivity feature
+•	Course Highlighting (India vs USA): Selecting a country in either country’s top chart highlights the same course on both charts hence much easier to compare course prefernces.
+•	Interactive Tooltips: Hovering over the  charts displyed one gets much more infor reagrifng that particlur chart for i.e hovering over the map charts you can se the percentage, the toal number of applicants of tha paticluar cousr in the country etc
+•	Calculated fields: All percentage labels are built on context-aware calculated fields (e.g., percentage of each country's own applicant total, not the global total) using Tableau's “Add to Context” filter ordering, ensuring percentages remain accurate regardless of which filters are active.
+Filter actions and navigation buttons were deliberately omitted. Given the dashboard's narrow, comparative focus (India vs. USA specifically), a filter action risked letting users filter away the exact two countries the story depends on.
+
+## Insight report	
+Key Trends and Patterns
+•	India dominates applications, contributing 4,616 applicants (61.3%), while the USA ranks second with 764 applicants (10.1%). 
+•	Business Analytics and Computer Science drive demand, together accounting for 31% of all applications. 
+•	India's course preferences largely shape DePaul's overall trends, as its top five courses closely match the university's overall rankings. 
+•	Course preferences differ slightly in the USA, where Computer Science ranks ahead of Business Analytics. 
+•	Full-time MBA stands out as an exception: although absent from India's top five and DePaul's overall top ten, it ranks third among US applicants. MBA interest represents 5.8% of US applicants compared with only 0.9% of Indian applicants, revealing a unique pattern of domestic demand. 
+
+## Recommendations
+•	Recruitment Targeting: Increase marketing efforts for the Full-time MBA among US applicants, where demand is relatively stronger. 
+•	Counselor Engagement: Provide admissions counselors with MBA-specific information and career outcome data to better support prospective students. 
+•	Admission Outcomes: Monitor whether MBA-focused initiatives lead to increased enrollment and use the results to refine future recruitment strategies. 
+ 
+## Data-Driven Decision Making
+The recommendations are based on verified dashboard metrics. The MBA insight highlights that percentage differences (5.8% vs. 0.9%) provide a more meaningful measure of demand and interest than raw applicant counts (44 vs. 42), ensuring decisions are guided by actual applicant priorities rather than absolute numbers.
+
+## Tools and Methods
+•	Tableau Public — Used to build all interactive visualizations, the highlight action, calculated fields, and dashboard layout.
+•	DePaul University admissions dataset — Underlying applicant intake data, cleaned and prepared in the Week 2 Data Cleaning Report.
+•	Python (pandas, matplotlib) — Used in earlier exploratory analysis to validate course and country distributions prior to building the Tableau dashboard.
+
