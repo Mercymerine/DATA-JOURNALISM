@@ -16,7 +16,7 @@ Link: https://public.tableau.com/views/Depaul_University_Intake/Dashboard1?:lang
 
 ### Project Structure
 Original dataset (Unmodified): https://github.com/Mercymerine/DATA-JOURNALISM/blob/main/DePaul_Data_Data.csv
-Cleaned datasets used for analysis.
+Cleaned datasets used for analysis: https://github.com/Mercymerine/DATA-JOURNALISM/blob/main/depaul_cleaned.csv
 Dashboard
 Data Report
 
