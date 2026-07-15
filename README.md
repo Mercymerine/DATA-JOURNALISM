@@ -6,8 +6,10 @@ A collection of data-driven stories and analytical projects exploring social, ec
 ### The Question
 The dashboard investigates which course is a popular anomaly in the US in comparison to India?
 
-### Key Findings
-The analysis found that: Full-time MBA appears in the top five preferred courses in the USA, but neither in India's top 5 nor in the top 10 general course intake preferences.MBA interest represents 5.8% of US applicants compared with only 0.9% of Indian applicants, revealing a unique pattern of domestic demand. 
+### Key Finding
+Computer Science slightly leads Business Analytics (94 vs 88), while the Full-time MBA shows a key anomaly: despite India’s much larger applicant base, the US records more MBA applicants (44 vs 42). Notably ranked 3rd in the US but absent from India’s top 5, the MBA highlights untapped domestic demand and growth potential in DePaul’s home market.
+5.8% of US's 764 applicants chose MBA, vs. just 0.9% of India's 4,616 — proportion, not population, drives this gap. A clear opportunity for DePaul to grow MBA enrollment through targeted US marketing and employer partnerships.
+
 
 ### Dashboard 
 Link: https://public.tableau.com/views/Depaul_University_Intake/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
